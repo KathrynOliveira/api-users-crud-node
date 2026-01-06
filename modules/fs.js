@@ -40,10 +40,14 @@ fs.appendFile(
 );
 
 // Ler arquivo
-fs.readFile(path.join(__dirname, '/test', 'test.txt'), 'utf-8', (error, data) => {
+fs.readFile(
+  path.join(__dirname, "/test", "test.txt"),
+  "utf-8",
+  (error, data) => {
     if (error) {
-        return console.log("Error:", error);
+      return console.log("Error:", error);
     }
 
-    console.log(data)
-})
+    console.log(data);
+  }
+);
