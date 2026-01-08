@@ -25,11 +25,11 @@ API RESTful para gerenciamento de usuários, desenvolvida com Node.js e Express,
 
 1. Clone o repositório:
      ```bash
-   git clone https://github.com/KathrynOliveira/course-node.git
+   git clone https://github.com/KathrynOliveira/api-users-crud-node.git
 
 2. Acesse a pasta do projeto
      ```bash
-     cd course-node
+     cd api-users-crud-node
 3. Instale as dependências
     ```bash
     npm install
